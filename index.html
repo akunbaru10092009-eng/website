@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kecamatan Sukamaju — Profil Wilayah</title>
+
+  <!-- Google Fonts: Fraunces untuk judul (berkarakter, mirip ukiran peta lama), 
+       Work Sans untuk teks biasa (mudah dibaca) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar">
+    <div class="navbar__inner">
+      <span class="navbar__brand" id="navbarBrand">Memuat…</span>
+      <nav class="navbar__menu" id="navMenu">
+        <a href="#sejarah">Sejarah</a>
+        <a href="#info">Info Wilayah</a>
+        <a href="#peta">Peta</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+      <button class="navbar__toggle" id="navToggle" aria-label="Buka menu">☰</button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero__contours" aria-hidden="true"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow" id="heroEyebrow">Memuat…</p>
+      <h1 class="hero__title" id="heroTitle">Memuat…</h1>
+      <p class="hero__desc" id="heroDesc"></p>
+    </div>
+  </section>
+
+  <!-- ============ SEJARAH ============ -->
+  <section class="section" id="sejarah">
+    <div class="section__inner">
+      <p class="section__eyebrow">01 — Sejarah</p>
+      <h2 class="section__title">Jejak Perjalanan Wilayah</h2>
+
+      <div class="timeline" id="timelineContainer">
+        <!-- Diisi otomatis oleh script.js dari data/kecamatan.json -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INFO UMUM ============ -->
+  <section class="section section--tinted" id="info">
+    <div class="section__inner">
+      <p class="section__eyebrow">02 — Info Umum</p>
+      <h2 class="section__title">Sukamaju dalam Angka</h2>
+
+      <div class="stats" id="statsContainer">
+        <div class="stat">
+          <span class="stat__number" id="statPenduduk" data-target="0">0</span>
+          <span class="stat__label">Jiwa Penduduk</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number" id="statDesa" data-target="0">0</span>
+          <span class="stat__label">Desa &amp; Kelurahan</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number" id="statLuas" data-target="0">0</span>
+          <span class="stat__label">Km² Luas Wilayah</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number" id="statSungai" data-target="0">0</span>
+          <span class="stat__label">Sungai Utama</span>
+        </div>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <h3>Batas Wilayah</h3>
+          <ul id="batasWilayahList">
+            <!-- Diisi otomatis oleh script.js -->
+          </ul>
+        </div>
+        <div class="info-card">
+          <h3>Mata Pencaharian</h3>
+          <ul id="mataPencaharianList">
+            <!-- Diisi otomatis oleh script.js -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PETA WILAYAH ============ -->
+  <section class="section" id="peta">
+    <div class="section__inner">
+      <p class="section__eyebrow">03 — Peta Wilayah</p>
+      <h2 class="section__title">Menjelajah Sukamaju</h2>
+      <p class="section__text">
+        Ganti kotak di bawah ini dengan peta embed dari Google Maps
+        (Bagikan → Sematkan peta) agar pengunjung bisa melihat lokasi kecamatan secara interaktif.
+      </p>
+
+      <div class="map-frame">
+        <!-- Contoh: ganti src di bawah dengan link embed Google Maps kecamatanmu -->
+        <iframe
+          id="mapFrame"
+          title="Peta Kecamatan"
+          src="https://www.google.com/maps?q=Indonesia&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER / KONTAK ============ -->
+  <footer class="footer" id="kontak">
+    <div class="footer__inner">
+      <div>
+        <span class="navbar__brand navbar__brand--light" id="footerBrand">Memuat…</span>
+        <p id="footerAlamat"></p>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <p id="footerKontak"></p>
+      </div>
+      <div>
+        <h4>Jam Layanan</h4>
+        <p id="footerJamLayanan"></p>
+      </div>
+    </div>
+    <p class="footer__copy" id="footerCopy">© 2026 Pemerintah Kecamatan.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

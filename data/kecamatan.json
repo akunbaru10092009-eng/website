@@ -1,0 +1,47 @@
+{
+  "_petunjuk": "ini adalah 'wadah data' untuk website profil kecamatan. Isi setiap nilai di bawah ini dengan data asli kecamatanmu. Jangan hapus bagian kurung siku/kurawal,cukup ganti isi teks/angkanya saja. Hapus baris'_petunjuk ini kalau sudah selesai mengisi.",
+"profil":{
+  "namaKecamatan":"",
+  "eyebrow":"Profil Wilayah",
+  "deskripsiSingkat":""
+}
+
+"sejarah":[
+  {
+    "tahun":"",
+    "keterangan":""
+  
+  }
+],
+
+"statistik":{
+  "jumlahPenduduk":0,
+  "jumlahDesaKelurahan":0,
+  "luasWilayahKm2":0,
+  "jumlahSungaiUtama":0,
+},
+
+   "batasWilayah": {
+    "utara":"",
+    "selatan":"",
+    "timur":"",
+    "barat":""
+},
+"mataPencaharian":[
+  ""
+],
+
+"peta":{
+  "keterangan":"Ganti embedURL Dengan link embed dari Google Maps
+(Bagikan->Sematkan peta->ambil hanya bagian src=\"...\ )",
+  "embedUrl": "https://www.google.com/maps?q=Indonesia&output=
+  embed"
+},
+
+ "kontak":{
+  "alamatKantor":"",
+  "telepon":"",
+  "email":"",
+  "jamLayanan":""
+ }
+}
