@@ -1,34 +1,25 @@
 {
-  "_petunjuk": "Ini adalah 'wadah data' untuk website profil kecamatan. Isi setiap nilai di bawah ini dengan data asli kecamatanmu. Jangan hapus bagian kurung siku/kurawal, cukup ganti isi teks/angkanya saja. Hapus baris '_petunjuk' ini kalau sudah selesai mengisi.",
   "profil": {
-    "namaKecamatan": "Kecamatan Cipeundeuy",
+    "namaKecamatan": "Cipeundeuy",
     "eyebrow": "Profil Wilayah",
-    "deskripsiSingkat": ""
+    "deskripsiSingkat": "Menggali Khazanah Cipeudeuy"
   },
   "sejarah": [
-    {
-      "tahun": "",
-      "keterangan": ""
-    }
+    { "tahun": "1980", "keterangan": "Kecamatan Cipeundeuy resmi dibentuk sebagai wilayah administratif." }
   ],
   "statistik": {
-    "jumlahPenduduk": 0,
-    "jumlahDesaKelurahan": 0,
-    "luasWilayahKm2": 0,
+    "jumlahPenduduk": 75390,
+    "jumlahDesaKelurahan": 12,
+    "luasWilayahKm2": 102.19,
     "jumlahSungaiUtama": 0
   },
   "batasWilayah": {
     "utara": "Kabupaten Purwakarta",
-    "selatan": "Kecamatan Cikaongwetan",
+    "selatan": "Kecamatan Cikalongwetan",
     "timur": "Kecamatan Cipatat",
     "barat": "Kabupaten Cianjur"
   },
-  "mataPencaharian": [
-    "Petani",
-    "Pedagang",
-    "Buruh",
-    "PNS/ASN"
-  ],
+  "mataPencaharian": ["Petani", "Pedagang", "Buruh", "PNS/ASN"],
   "peta": {
     "keterangan": "Ganti embedUrl dengan link embed dari Google Maps",
     "embedUrl": "https://www.google.com/maps?q=Indonesia&output=embed"
