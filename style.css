@@ -87,7 +87,11 @@ ul { list-style: none; }
 ============================================ */
 .hero {
   position: relative;
-  background: var(--teal-deep);
+  background-image: 
+    linear-gradient(rgba(15, 40, 33, 0.65), rgba(15, 40, 33, 0.65)),
+    url('images/gedung.jpg');
+  background-size: cover;
+  background-position: center;
   color: var(--sand-light);
   padding: 120px 24px 100px;
   overflow: hidden;
