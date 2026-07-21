@@ -25,9 +25,9 @@
     "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78004.1441682455!2d107.3107014275728!3d-6.755796532977906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6901c65a3ffb71%3A0xe53a06c1bdaeed7!2sKecamaten%20Cipeundeuy%2C%20Kabupaten%20Bandung%20Barat%2C%20Jawa%20Barat!5e1!3m2!1sid!2sid!4v1784597965937!5m2!1sid!2sid"
   },
   "kontak": {
-    "alamatKantor": "",
-    "telepon": "",
-    "email": "",
-    "jamLayanan": ""
-  }
+  "alamatKantor": "Jl. Raya Cipeundeuy No. 1, Kabupaten Bandung Barat",
+  "telepon": "022-1234567",
+  "email": "kecamatan.cipeundeuy@bandungbaratkab.go.id",
+  "jamLayanan": "Senin–Jumat, 08.00–15.00 WIB"
+}
 }
